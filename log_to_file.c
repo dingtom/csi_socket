@@ -47,7 +47,7 @@ int main(int argc, char** argv)
 
 
     int sock_cli = socket(AF_INET,SOCK_STREAM, 0);
-    char sendbuf[BUFFER_SIZE];
+    // char sendbuf[BUFFER_SIZE];
     struct sockaddr_in servaddr;
 	/* Make sure usage is correct */
 	check_usage(argc, argv);
