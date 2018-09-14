@@ -20,6 +20,8 @@
 #define MAX_PAYLOAD 2048
 #define SLOW_MSG_CNT 1
 #define BUFFER_SIZE 4096
+#define MYPORT  8887
+#define SERVER_IP "127.0.0.1"
 
 int sock_fd = -1;							// the socket
 FILE* out = NULL;
